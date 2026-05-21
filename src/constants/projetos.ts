@@ -8,73 +8,90 @@ import gerenciamentoFuncionarios from '../assets/Images/GerenciamentoFuncionario
 import pokedex from '../assets/Images/pokedex.gif'
 import botJoshue from '../assets/Images/BotJoshue.png'
 
+const projetoSoul: Projeto = {
+    titulo: "projetos.soul.titulo",
+    descricao: "projetos.soul.descricao",
+    tecnologias: ["Go", "Wails", "React", "Whisper", "SQLite", "RAG"],
+    primaryLang: "Go",
+    isPrivate: true,
+};
+
+const projetoShortUrl: Projeto = {
+    titulo: "projetos.ShortUrl.titulo",
+    imagem: shortUrl,
+    descricao: "projetos.ShortUrl.descricao",
+    tecnologias: ["Go", "Next.js", "TypeScript", "MySQL", "Nginx", "Docker"],
+    primaryLang: "Go",
+    repo: "https://www.goshort.tech"
+};
+
+const projetoPicPay: Projeto = {
+    titulo: "projetos.PicPayChallenge.titulo",
+    imagem: picpaychallenge,
+    descricao: "projetos.PicPayChallenge.descricao",
+    tecnologias: ["C#", ".Net", "React", "Next.js", "MySQL", "Kafka"],
+    primaryLang: "C#",
+    repo: "https://github.com/IgormBonfim/PicPayChallenge.Payment"
+};
+
 const projetoQuasar: Projeto = {
     titulo: "projetos.quasar.titulo",
     imagem: quasar,
     descricao: "projetos.quasar.descricao",
     tecnologias: ["C#", ".Net", "Angular", "MySQL"],
+    primaryLang: "C#",
     repo: "https://github.com/IgormBonfim/quasar-ecommerce"
-  };
-  
-  const projetoPicPay: Projeto = {
-    titulo: "projetos.PicPayChallenge.titulo",
-    imagem: picpaychallenge,
-    descricao:"projetos.PicPayChallenge.descricao",
-    tecnologias: ["C#", ".Net", "React", "Next.js", "MySQL", "Kafka"],
-    repo: "https://github.com/IgormBonfim/PicPayChallenge.Payment"
-  };
-  
-  const projetoAluralfix: Projeto = {
+};
+
+const projetoAluralfix: Projeto = {
     titulo: "projetos.Aluraflix.titulo",
     imagem: aluraflix,
     descricao: "projetos.Aluraflix.descricao",
     tecnologias: ["C#", ".Net", "MySQL", "Angular", "HTML", "CSS"],
+    primaryLang: "C#",
     repo: "https://github.com/IgormBonfim/Challenge_Backend_AluraFlix"
-  };
+};
 
-  const projetoShortUrl: Projeto = {
-    titulo: "projetos.ShortUrl.titulo",
-    imagem: shortUrl,
-    descricao: "projetos.ShortUrl.descricao",
-    tecnologias: ["Go", "Next.Js", "TypeScript", "MySQL", "Nginx", "Docker"],
-    repo: "https://www.goshort.tech"
-  };
-  
-  export const PROJETOS_EM_DESTAQUE: Projeto[] = [
+export const PROJETOS_EM_DESTAQUE: Projeto[] = [
+    projetoSoul,
     projetoShortUrl,
     projetoPicPay,
-    projetoQuasar
-  ];
-  
-  export const PROJETOS: Projeto[] = [
+];
+
+export const PROJETOS: Projeto[] = [
     ...PROJETOS_EM_DESTAQUE,
+    projetoQuasar,
     projetoAluralfix,
     {
-      titulo: "projetos.gerenciamentoFuncionarios.titulo",
-      imagem: gerenciamentoFuncionarios,
-      descricao: "projetos.gerenciamentoFuncionarios.descricao",
-      tecnologias: ["Java", "Spring", "MySQL", "Angular", "TypeScript"],
-      repo: "https://github.com/IgormBonfim/Projeto-CRUD-Gerenciamento-de-Funcionarios"
+        titulo: "projetos.challengeBackendFinancas.titulo",
+        imagem: ChallengeBackendFinancas,
+        descricao: "projetos.challengeBackendFinancas.descricao",
+        tecnologias: ["C#", ".Net", "MySQL"],
+        primaryLang: "C#",
+        repo: "https://github.com/IgormBonfim/Challenge_Backend_Financas"
     },
     {
-      titulo: "projetos.pokedex.titulo",
-      imagem: pokedex,
-      descricao: "projetos.pokedex.descricao",
-      tecnologias: ["Angular", "TypeScript", "Html", "CSS", "RxJs"],
-      repo: "https://github.com/IgormBonfim/Angular-Pokedex"
+        titulo: "projetos.gerenciamentoFuncionarios.titulo",
+        imagem: gerenciamentoFuncionarios,
+        descricao: "projetos.gerenciamentoFuncionarios.descricao",
+        tecnologias: ["Java", "Spring", "MySQL", "Angular", "TypeScript"],
+        primaryLang: "Java",
+        repo: "https://github.com/IgormBonfim/Projeto-CRUD-Gerenciamento-de-Funcionarios"
     },
     {
-      titulo: "projetos.challengeBackendFinancas.titulo",
-      imagem: ChallengeBackendFinancas,
-      descricao: "projetos.challengeBackendFinancas.descricao",
-      tecnologias: ["C#", ".Net", "MySQL"],
-      repo: "https://github.com/IgormBonfim/Challenge_Backend_Financas"
+        titulo: "projetos.pokedex.titulo",
+        imagem: pokedex,
+        descricao: "projetos.pokedex.descricao",
+        tecnologias: ["Angular", "TypeScript", "HTML", "CSS", "RxJs"],
+        primaryLang: "TypeScript",
+        repo: "https://github.com/IgormBonfim/Angular-Pokedex"
     },
     {
-      titulo: "projetos.botJoshue.titulo",
-      imagem: botJoshue,
-      descricao: "projetos.botJoshue.descricao",
-      tecnologias: ["Node.Js", "JavaScript", "Discord.js", "YoutubeAPI"],
-      repo: "https://github.com/IgormBonfim/BotJoshue"
+        titulo: "projetos.botJoshue.titulo",
+        imagem: botJoshue,
+        descricao: "projetos.botJoshue.descricao",
+        tecnologias: ["Node.js", "JavaScript", "Discord.js", "YouTube API"],
+        primaryLang: "JavaScript",
+        repo: "https://github.com/IgormBonfim/BotJoshue"
     },
-  ]
+];
