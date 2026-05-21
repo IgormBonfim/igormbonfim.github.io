@@ -1,10 +1,12 @@
 {
   "translation": {
-    "cargo": "Software Developer",
-    "sobre": "Full-Stack Developer with 3 years of experience, postgraduate in software architecture. I have experience in developing APIs using C# and .Net, Domain-Driven Design (DDD), Clean Architecture and Microservices, SQL, MongoDB. I also have knowledge in technologies such as Kafka, Docker, AWS and CI/CD tools. In addition, I have experience in developing visual interfaces using TypeScript, JavaScript, Angular and React.",
+    "cargo": "Software Engineer",
+    "tagline": "Designing and building distributed systems, RESTful APIs & event-driven microservices — primarily in Go.",
+    "sobre": "Software Engineer with 5+ years of experience designing and developing high-availability distributed systems, RESTful APIs, and event-driven microservices. Postgraduate in Distributed Software Architecture. Progressed across payments, credit risk, and independent consulting domains, owning systems end-to-end from architecture to production. Key achievements include eliminating single points of failure in a payment platform processing ~10,000 daily transactions and architecting backend systems with Clean Architecture and DDD.",
     "linkCurriculo": "https://drive.google.com/file/d/1oEgmVe2iLgA6UpmbK6PjT8Lhe5dZ9Tgy",
     "tecnologias": "Technologies",
-    "experiencias": "Experiences",
+    "especialidades": "Specialties",
+    "experiencias": "Experience",
     "tituloProjetos": "Featured Projects",
     "tituloArtigos": "Featured Articles",
     "meusProjetos": "My Projects",
@@ -15,25 +17,53 @@
       "outrosProjetos": "Other projects",
       "outrosArtigos": "Other articles"
     },
+    "especialidadesData": {
+      "distributedSystems": {
+        "titulo": "Distributed Systems",
+        "descricao": "Microservices architecture, high-availability design, and fault-tolerant systems built to scale."
+      },
+      "eventDriven": {
+        "titulo": "Event-Driven Architecture",
+        "descricao": "Kafka, SQS, RabbitMQ — async processing with dead-letter queues and reliable message handling."
+      },
+      "cleanArchitecture": {
+        "titulo": "Clean Architecture & DDD",
+        "descricao": "Domain-Driven Design, SOLID principles, and Clean Architecture for modular, testable codebases."
+      },
+      "paymentSystems": {
+        "titulo": "Payment Systems",
+        "descricao": "~10,000 daily transactions, WebSocket-driven real-time status, and legacy system decoupling."
+      }
+    },
+    "bright-minds": {
+      "cargo": "Software Engineer & Technical Consultant",
+      "ano": "Aug, 2025 - Present",
+      "empresa": "Bright Minds Tech",
+      "descricao": "Founded an independent software consultancy, collaborating directly with clients to gather requirements, prioritize delivery scope, and own full-cycle implementation from system design to production. Developed backend systems in Go and C# applying Clean Architecture and DDD. Designed RESTful APIs with a focus on performance, versioning, and backward compatibility. Built CI/CD pipelines on GitHub Actions + Docker, cutting delivery cycles and eliminating all manual deployments. Integrated Kafka-based event streaming to decouple services and enable reliable async processing."
+    },
     "caixa-web": {
-      "cargo": "Caixa Web - Full-Stack Developer",
-      "ano": "June, 2023 - Present",
-      "empresa": "Autoglass",
-      "descricao": "I am currently working on the development of the company's billing and invoicing product using .Net, Angular, Oracle, and Kafka. I apply Domain-Driven Design (DDD) principles and Clean Architecture. I also utilize agile methodologies, including Scrum and Kanban, for project management."
+      "cargo": "Software Engineer — Payments",
+      "ano": "Jun, 2023 - Feb, 2026",
+      "empresa": "Grupo Autoglass",
+      "descricao": "Eliminated the single point of failure in a payment system handling ~10,000 daily transactions and millions in BRL volume by co-architecting an AWS-hosted microservice that decoupled payment processing from the legacy Oracle infrastructure. Implemented a WebSocket layer that replaced polling and reduced perceived latency to near-zero for cashier operators across physical stores. Ensured async consistency by integrating Kafka topics with a dead-letter queue strategy for failed message handling and reprocessing."
     },
     "grc": {
-      "cargo": "Gestão de Risco ao Crédito - Full-Stack Developer",
-      "ano": "June, 2022 - June, 2023",
-      "empresa": "Autoglass",
-      "descricao": "I worked on the development team for the financial credit analysis product using .Net, Angular, MongoDB, and SQS. I played a crucial role in developing the automated analysis process, implementing the asynchronous queue process with SQS, and restructuring attachment storage. Additionally, we used the Scrum agile methodology."
+      "cargo": "Software Engineer — Credit Analysis",
+      "ano": "Jun, 2022 - Jun, 2023",
+      "empresa": "Grupo Autoglass",
+      "descricao": "Eliminated 100% of manual analyst actions required to trigger automated credit analysis by implementing an AWS SQS pipeline that orchestrated business rules, bureau integration, and AI scoring asynchronously. Reduced unnecessarily opened analyses by 50% by refactoring the document-storage layer, also resolving I/O bottlenecks that caused timeouts under production load. Integrated the Serasa bureau API for data enrichment and an AI scoring model."
     },
-    "aksie": {
-      "cargo": "Aksie - Front-end Developer",
-      "ano": "March, 2023 - July, 2023",
+    "freelancer": {
+      "cargo": "Software Engineer",
+      "ano": "Feb, 2021 - Aug, 2025",
       "empresa": "Freelance",
-      "descricao": "I worked as a Front-end Developer for a financial management platform, utilizing Angular, TypeScript, and SASS technologies."
+      "descricao": "Collaborated directly with various clients as sole technical point of contact, developing backend APIs and frontend applications end-to-end, owning scope definition, architecture, and delivery. Delivered a complete visual redesign of a SaaS accounting platform as sole frontend engineer, translating 10 UI/UX mockup screens into production code with Angular."
     },
     "projetos": {
+      "soul": {
+        "titulo": "S.O.U.L.",
+        "descricao": "Synthetic Operative Unit Lifelog — a personal AI assistant that captures audio, transcribes with Whisper, persists in SQLite, and learns the user's vocabulary and communication style over time via RAG."
+      },
       "quasar": {
         "titulo": "Quasar E-Commerce",
         "descricao": "E-commerce project developed as a team for learning purposes, utilizing Angular for the front-end and C# for the back-end."
@@ -47,7 +77,7 @@
         "descricao": "Project developed during the fifth edition of Alura's backend challenge. Built using Angular, C#, Asp.Net, and MySQL."
       },
       "gerenciamentoFuncionarios": {
-        "titulo": "EmployeeManagement",
+        "titulo": "Employee Management",
         "descricao": "CRUD employee management project, developed using Angular and Spring, with the purpose of learning."
       },
       "pokedex": {
@@ -55,8 +85,8 @@
         "descricao": "Pokedex project developed using Angular and the PokéApi."
       },
       "challengeBackendFinancas": {
-        "titulo": "Challeng Backend Financas",
-        "descricao": "Project developed during the third edition of Alura's backend Challenge. Built using C#, Asp.Net, and MySQL."
+        "titulo": "Challenge Backend Financas",
+        "descricao": "Project developed during the third edition of Alura's backend challenge. Built using C#, Asp.Net, and MySQL."
       },
       "botJoshue": {
         "titulo": "BotJoshue",
