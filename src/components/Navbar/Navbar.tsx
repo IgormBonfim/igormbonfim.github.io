@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 export default function Navbar() {
     return (
         <header className="mb-20 py-8 flex items-center justify-between">
-            <h1 className="font-bold bg-gradient-to-r from-sky-500 to-blue-800 bg-clip-text text-xl sm:text-4xl tracking-tight text-transparent p-1">
+            <h1 className="font-bold bg-gradient-to-r from-[#00ADD8] to-[#007D9C] bg-clip-text text-xl sm:text-4xl tracking-tight text-transparent p-1">
                 <Link to="/">
                     Igor Bonfim
                 </Link>
