@@ -10,5 +10,5 @@ i18n.use(initReactI18next).init({
     ptBR: { ...ptBRJSON },
     enUS: { ...enUSJSON }
  }, // Where we're gonna put translations' files
- lng: init || "ptBR",     // Set the initial language of the App
+ lng: init || "enUS",
 });

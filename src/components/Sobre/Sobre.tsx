@@ -3,11 +3,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Sobre() {
   const IMG_URL = "https://github.com/igormbonfim.png";
-  const CARGO = "cargo";
-  const SOBRE = "sobre";
-  const URL_CURRICULO = "linkCurriculo";
   const URL_WHATSAPP = "https://api.whatsapp.com/send?phone=5527992523204";
-  const BTN_CONTATO = "btn.contato";
 
   const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
@@ -24,27 +20,38 @@ export default function Sobre() {
       <div className="flex flex-col items-center gap-4">
         <motion.img
           src={IMG_URL}
-          alt="Igor Bonfim - Desenvolvedor de Software Full-Stack"
+          alt="Igor Bonfim - Software Engineer"
           className="rounded-full max-w-64"
           initial={{ x: 100, opacity: 0 }}
           animate={{ x: 0, opacity: 1 }}
           transition={{ duration: 1, delay: 0 }}
         />
-        <motion.h2
-          variants={container(0.5)}
+        <motion.div
+          variants={container(0.4)}
           initial="hidden"
           animate="visible"
-          className="text-3xl"
+          className="flex items-center gap-3"
         >
-          {t(CARGO)}
-        </motion.h2>
+          <h2 className="text-3xl">{t("cargo")}</h2>
+          <span className="rounded-md border border-[#00ADD8] px-2 py-0.5 text-sm font-semibold text-[#00ADD8]">
+            Go
+          </span>
+        </motion.div>
+        <motion.p
+          variants={container(0.7)}
+          initial="hidden"
+          animate="visible"
+          className="text-neutral-400 text-sm italic"
+        >
+          {t("tagline")}
+        </motion.p>
         <motion.p
           variants={container(1)}
           initial="hidden"
           animate="visible"
           className="my-2 max-w-xl py-4 font-light text-justify"
         >
-          {t(SOBRE)}
+          {t("sobre")}
         </motion.p>
         <motion.div
           variants={container(1)}
@@ -55,14 +62,14 @@ export default function Sobre() {
           <a
             href={URL_WHATSAPP}
             target="_blank"
-            className="rounded-xl bg-blue-700 hover:bg-blue-600 p-4"
+            className="rounded-xl bg-[#00ADD8] hover:bg-[#5DC9E2] p-4 text-neutral-950 font-semibold transition-colors"
           >
-            {t(BTN_CONTATO)}
+            {t("btn.contato")}
           </a>
           <a
-            href={t(URL_CURRICULO)}
+            href={t("linkCurriculo")}
             target="_blank"
-            className="rounded-xl border border-blue-700 text-blue-700 hover:text-zinc-100 hover:bg-blue-700 p-4"
+            className="rounded-xl border border-[#00ADD8] text-[#00ADD8] hover:text-neutral-950 hover:bg-[#00ADD8] p-4 transition-colors"
           >
             Download CV
           </a>

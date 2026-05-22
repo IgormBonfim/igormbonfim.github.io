@@ -1,81 +1,111 @@
 {
   "translation": {
-      "cargo": "Desenvolvedor de Software",
-      "sobre": "Desenvolvedor Full-Stack com 3 anos de experiência, pós graduado em arquitetura de software. Possuo experiência no desenvolvimento de API's utilizando C# e .Net, Design Orientado a Domínio (DDD), Clean Architecture e Microsserviços, SQL, MongoDB. Também tenho conhecimento em tecnologias como Kafka, Docker, AWS e ferramentas de CI/CD. Além disso, possuo experiência no desenvolvimento de interfaces visuais utilizando TypeScript, JavaScript, Angular e React.",
-      "linkCurriculo": "https://drive.google.com/file/d/1oEgmVe2iLgA6UpmbK6PjT8Lhe5dZ9Tgy",
-      "tecnologias": "Tecnologias",
-      "experiencias": "Experiências",
-      "tituloProjetos": "Projetos em destaque",
-      "tituloArtigos": "Artigos em destaque",
-      "meusProjetos": "Meus Projetos",
-      "meusArtigos": "Meus Artigos",
-      "notfound": "Página não encontrada",
-      "btn": {
-        "contato": "Entre em contato",
-        "outrosProjetos": "Outros projetos",
-        "outrosArtigos": "Outros artigos"
+    "cargo": "Engenheiro de Software",
+    "tagline": "Projetando e construindo sistemas distribuídos, APIs RESTful e microsserviços orientados a eventos — principalmente em Go.",
+    "sobre": "Engenheiro de Software com 5+ anos de experiência projetando e desenvolvendo sistemas distribuídos de alta disponibilidade, APIs RESTful e microsserviços orientados a eventos. Pós-graduado em Arquitetura de Software Distribuída. Atuei em domínios de pagamentos, análise de crédito e consultoria independente, com propriedade de sistemas de ponta a ponta. Principais conquistas: eliminação de ponto único de falha em plataforma de pagamentos com ~10.000 transações diárias e arquitetura de sistemas backend com Clean Architecture e DDD.",
+    "linkCurriculo": "https://drive.google.com/file/d/1oEgmVe2iLgA6UpmbK6PjT8Lhe5dZ9Tgy",
+    "tecnologias": "Tecnologias",
+    "especialidades": "Especialidades",
+    "experiencias": "Experiências",
+    "tituloProjetos": "Projetos em destaque",
+    "tituloArtigos": "Artigos em destaque",
+    "meusProjetos": "Meus Projetos",
+    "meusArtigos": "Meus Artigos",
+    "notfound": "Página não encontrada",
+    "btn": {
+      "contato": "Entre em contato",
+      "outrosProjetos": "Outros projetos",
+      "outrosArtigos": "Outros artigos"
+    },
+    "especialidadesData": {
+      "distributedSystems": {
+        "titulo": "Sistemas Distribuídos",
+        "descricao": "Arquitetura de microsserviços, design de alta disponibilidade e sistemas tolerantes a falhas construídos para escalar."
       },
-      "caixa-web": {
-        "cargo": "Caixa Web - Desenvolvedor Full-Stack",
-        "ano": "Junho, 2023 - Atualmente",
-        "empresa": "Autoglass",
-        "descricao": "Atuo no time de desenvolvimento do produto de faturamento e emissão de notas da empresa utilizando .Net, Angular, Oracle e Kafka. Aplicação dos princípios de Design Orientado a Domínio (DDD) e Clean Architecture. Utilização de metodologias ágeis, incluindo Scrum e Kanban, para o gerenciamento de projetos."
+      "eventDriven": {
+        "titulo": "Arquitetura Event-Driven",
+        "descricao": "Kafka, SQS, RabbitMQ — processamento assíncrono com dead-letter queues e tratamento confiável de mensagens."
       },
-      "grc": {
-        "cargo": "Gestão de Risco ao Crédito - Desenvolvedor Full-Stack",
-        "ano": "Junho, 2022 - Junho, 2023",
-        "empresa": "Autoglass",
-        "descricao": "Atuei no time de desenvolvimento do produto de análise de crédito financeiro utilizando .Net, Angular, MongoDB, SQS. Desempenhei um papel crucial no desenvolvimento do processo de análise automatizada, implementando o processo assíncrono de fila com o SQS. E na reestruturação do armazenamento de anexos. Além disso, utilizávamos a metodologia ágil Scrum."
+      "cleanArchitecture": {
+        "titulo": "Clean Architecture & DDD",
+        "descricao": "Domain-Driven Design, princípios SOLID e Clean Architecture para bases de código modulares e testáveis."
       },
-      "aksie": {
-        "cargo": "Aksie - Desenvolvedor Front-end",
-        "ano": "Março, 2023 - Julho, 2023",
-        "empresa": "Freelance",
-        "descricao": "Atuei como desenvolvedor Front-end para uma plataforma de gerenciamento contábil. Utilizando as tecnologias Angular, TypeScript, SASS."
-      },
-      "projetos": {
-        "quasar": {
-          "titulo": "Quasar E-Commerce",
-          "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end."
-        },
-        "PicPayChallenge": {
-          "titulo": "PicPayChallenge",
-          "descricao": "Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento."
-        },
-        "Aluraflix": {
-          "titulo": "Aluraflix",
-          "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL."
-        },
-        "gerenciamentoFuncionarios": {
-          "titulo": "Aluraflix",
-          "descricao": "Projeto CRUD de gerenciamento de funcionários, desenvolvido utilizando Angular e Spring, com o intuito de aprendizado."
-        },
-        "pokedex": {
-          "titulo": "Pokedex",
-          "descricao": "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi."
-        },
-        "challengeBackendFinancas": {
-          "titulo": "Challeng Backend Financas",
-          "descricao": "Projeto desenvolvido durante a terceira edição do Challenge backend da Alura. Desenvolvido em C#, Asp.Net e MySQL."
-        },
-        "botJoshue": {
-          "titulo": "BotJoshue",
-          "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API."
-        },
-        "ShortUrl": {
-          "titulo": "GoShort",
-          "descricao": "GoShort é um serviço simples e eficiente de encurtamento de URLs, projetado para redirecionamentos rápidos."
-        }
-      },
-      "artigos": {
-        "buscaBinaria": {
-          "titulo": "Algoritmos: Busca Binária",
-          "descricao": "Artigo sobre o algoritmo de Busca Binária. Onde eu mostro como o algoritmo funciona, com exemplos práticos e testes em diferentes cenários. Também mostro a implementação na linguagem Golang."
-        },
-        "selectionSort": {
-          "titulo": "Algoritmos: Selection Sort",
-          "descricao": "Um artigo sobre o algoritmo Selection Sort, explicando seu funcionamento passo a passo com exemplos práticos e testes em diferentes cenários. Também inclui uma implementação em Golang."
-        }
+      "paymentSystems": {
+        "titulo": "Sistemas de Pagamento",
+        "descricao": "~10.000 transações diárias, status em tempo real via WebSocket e desacoplamento de sistemas legados."
       }
+    },
+    "bright-minds": {
+      "cargo": "Engenheiro de Software & Consultor Técnico",
+      "ano": "Ago, 2025 - Presente",
+      "empresa": "Bright Minds Tech",
+      "descricao": "Fundou uma consultoria de software independente, colaborando diretamente com clientes para levantar requisitos, priorizar escopo e liderar implementação completa do design de sistemas até a produção. Desenvolveu sistemas backend em Go e C# aplicando Clean Architecture e DDD. Projetou APIs RESTful com foco em performance, versionamento e compatibilidade retroativa. Construiu pipelines CI/CD com GitHub Actions e Docker, eliminando todos os deploys manuais. Integrou event streaming com Kafka para desacoplar serviços e habilitar processamento assíncrono confiável."
+    },
+    "caixa-web": {
+      "cargo": "Engenheiro de Software — Pagamentos",
+      "ano": "Jun, 2023 - Fev, 2026",
+      "empresa": "Grupo Autoglass",
+      "descricao": "Eliminou o ponto único de falha em um sistema de pagamentos com ~10.000 transações diárias co-arquitetando um microsserviço na AWS que desacoplou o processamento de pagamentos da infraestrutura Oracle legada. Implementou uma camada WebSocket que substituiu o polling e reduziu a latência percebida a quase zero para operadores de caixa nas lojas físicas. Garantiu consistência assíncrona integrando tópicos Kafka com estratégia de dead-letter queue."
+    },
+    "grc": {
+      "cargo": "Engenheiro de Software — Análise de Crédito",
+      "ano": "Jun, 2022 - Jun, 2023",
+      "empresa": "Grupo Autoglass",
+      "descricao": "Eliminou 100% das ações manuais de analistas para disparar análise de crédito automatizada, implementando um pipeline AWS SQS que orquestrou regras de negócio, integração com bureaus e scoring de IA de forma assíncrona. Reduziu análises desnecessariamente abertas em 50% refatorando a camada de armazenamento de documentos. Integrou a API do Serasa para enriquecimento de dados e um modelo de scoring de IA."
+    },
+    "freelancer": {
+      "cargo": "Engenheiro de Software",
+      "ano": "Fev, 2021 - Ago, 2025",
+      "empresa": "Freelance",
+      "descricao": "Colaborou diretamente com clientes como único ponto de contato técnico, desenvolvendo APIs backend e aplicações frontend de ponta a ponta. Entregou um redesign visual completo de uma plataforma SaaS contábil como único engenheiro frontend, traduzindo 10 telas de UI/UX em código de produção com Angular."
+    },
+    "projetos": {
+      "soul": {
+        "titulo": "S.O.U.L.",
+        "descricao": "Synthetic Operative Unit Lifelog — assistente pessoal de IA que captura áudio, transcreve com Whisper, persiste em SQLite e aprende o vocabulário e estilo de comunicação do usuário ao longo do tempo via RAG."
+      },
+      "quasar": {
+        "titulo": "Quasar E-Commerce",
+        "descricao": "Projeto E-commerce desenvolvido em equipe para o aprendizado. Utilizando Angular para o front-end e C# para o back-end."
+      },
+      "PicPayChallenge": {
+        "titulo": "PicPayChallenge",
+        "descricao": "Desafio técnico no PicPay, incluindo implementação do Kafka e integração com o PagSeguro para diversos métodos de pagamento."
+      },
+      "Aluraflix": {
+        "titulo": "Aluraflix",
+        "descricao": "Projeto desenvolvido durante a quinta edição do challenge backend da Alura. Desenvolvido utilizando Angular, C#, Asp.Net e MySQL."
+      },
+      "gerenciamentoFuncionarios": {
+        "titulo": "Gerenciamento de Funcionários",
+        "descricao": "Projeto CRUD de gerenciamento de funcionários, desenvolvido utilizando Angular e Spring, com o intuito de aprendizado."
+      },
+      "pokedex": {
+        "titulo": "Pokedex",
+        "descricao": "Projeto de uma Pokedex desenvolvido utilizando Angular e a PokéApi."
+      },
+      "challengeBackendFinancas": {
+        "titulo": "Challenge Backend Finanças",
+        "descricao": "Projeto desenvolvido durante a terceira edição do Challenge backend da Alura. Desenvolvido em C#, Asp.Net e MySQL."
+      },
+      "botJoshue": {
+        "titulo": "BotJoshue",
+        "descricao": "Um bot para o Discord desenvolvido utilizando JavaScript, Node.js, Discord.js e Youtube API."
+      },
+      "ShortUrl": {
+        "titulo": "GoShort",
+        "descricao": "GoShort é um serviço simples e eficiente de encurtamento de URLs, projetado para redirecionamentos rápidos."
+      }
+    },
+    "artigos": {
+      "buscaBinaria": {
+        "titulo": "Algoritmos: Busca Binária",
+        "descricao": "Artigo sobre o algoritmo de Busca Binária. Onde eu mostro como o algoritmo funciona, com exemplos práticos e testes em diferentes cenários. Também mostro a implementação na linguagem Golang."
+      },
+      "selectionSort": {
+        "titulo": "Algoritmos: Selection Sort",
+        "descricao": "Um artigo sobre o algoritmo Selection Sort, explicando seu funcionamento passo a passo com exemplos práticos e testes em diferentes cenários. Também inclui uma implementação em Golang."
+      }
+    }
   }
 }
