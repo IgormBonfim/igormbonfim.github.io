@@ -12,7 +12,7 @@ const LANG_COLORS: Record<string, string> = {
 
 function SoulPlaceholder() {
     return (
-        <div className="rounded-lg w-full h-48 flex flex-col items-center justify-center bg-neutral-900 border border-neutral-800 select-none overflow-hidden relative">
+        <div className="rounded-lg w-full aspect-[2/1] flex flex-col items-center justify-center bg-neutral-900 border border-neutral-800 select-none overflow-hidden relative">
             <div
                 className="absolute inset-0 opacity-10"
                 style={{
