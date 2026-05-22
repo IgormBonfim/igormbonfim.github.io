@@ -62,14 +62,11 @@ export default function Projeto(projeto: ProjetoType) {
                         {projeto.primaryLang}
                     </span>
                 )}
-                {projeto.isPrivate && (
-                    <span className="rounded px-2 py-0.5 text-xs text-neutral-500 border border-neutral-700">
-                        Private
-                    </span>
-                )}
-                {projeto.tecnologias.map((tecnologia, index) => (
-                    <TecnologiaTag key={index} {...{ tecnologia }} />
-                ))}
+                {projeto.tecnologias
+                    .filter((t) => t !== projeto.primaryLang)
+                    .map((tecnologia, index) => (
+                        <TecnologiaTag key={index} {...{ tecnologia }} />
+                    ))}
             </div>
             <h4
                 className="mt-2 font-bold text-xl transition-colors"
